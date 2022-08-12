@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speed-head {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.image {
+  height: 200px;
+}
+.speed-head {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-style: italic;
+}
+.speed-para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.speed-desc {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.acc-button {
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.brake-button {
+  width: 100px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
